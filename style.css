@@ -29,7 +29,7 @@ body {
   width: 200px;
   height: 200px;
   position: relative;
-  animation: bounce 2.5s infinite ease-in-out, scaleUp 3.5s ease-out forwards;
+  animation: bounce 1.5s infinite ease-in-out, scaleUp 2s ease-out forwards;
   transform: scale(0);
 }
 .breka-logo {
@@ -172,4 +172,5 @@ body {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+
 }
