@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     document.getElementById('loading-screen').style.display = 'none';
     document.getElementById('main-content').classList.remove('hidden');
-  }, 3000);
+  }, 500);
   var popup = document.getElementById("myPopup");
     var img = document.getElementById("foto");
     var popupImg = document.getElementById("popupImg");
@@ -43,3 +43,4 @@ window.addEventListener('load', () => {
         }
     }
 });
+
